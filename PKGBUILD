@@ -6,7 +6,7 @@ pkgdesc="custom fonts"
 arch=('any')
 source=(https://github.com/SorenKierkegaard/$pkgname/blob/master/$pkgname.tar.bz2)
 install=$pkgname.install
-md5sums=('a9a44e37df5b0a8dced5893252eaffdb')
+md5sums=('5957596e5858cfd30326356a45764a2a')
 
 package() {
   install -d "$pkgdir/usr/share/fonts/TTF"
