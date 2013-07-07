@@ -8,7 +8,7 @@ although it is only particularly clear at high font-points, such as
 be reconciled with any distribution of Linux specifically.
 
 Package can be installed by downloading the .tar.gz, extracting,
-running makepkg -sci, and then pacman -U <filename> as root, where
+running makepkg -s, and then pacman -U <filename> as root, where
 <filename> is the local .tar.xz.
 
 Font will be installed as "CollegeHumour Punctuation." Have fun!
