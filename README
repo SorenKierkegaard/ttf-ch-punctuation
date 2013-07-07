@@ -1,0 +1,10 @@
+package: ttf-ch-punctuation
+
+Package, when installed, gives access to the CollegeHumour Punctuation
+font. The font is buggy, and does not appear to work particularly well
+in LibreOffice. AbiWord appears to accept the font relatively well,
+although it is only particularly clear at high font-points, such as
+36-pt. This is the fault of the .ttf itself, and is not something to 
+be reconciled with any distribution of Linux specifically.
+
+Font will be installed as "CollegeHumour Punctuation." Have fun!
