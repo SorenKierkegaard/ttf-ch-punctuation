@@ -18,11 +18,6 @@ install=$pkgname.install
 source=(https://github.com/SorenKierkegaard/$pkgname/blob/master/$pkgname.tar.bz2)
 md5sums=('5957596e5858cfd30326356a45764a2a')
 
-build () {
-  cd "$srcdir"
-  pwd
-}
-
 package() {
   cd $srcdir
   install -Dm644 ttf-ch-punctuation.ttf "$pkgdir/usr/share/fonts/TTF/ttf-punctuation.ttf"
