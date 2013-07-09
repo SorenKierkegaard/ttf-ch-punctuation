@@ -2,10 +2,10 @@
 pkgname=ttf-ch-punctuation
 pkgver=1.0
 pkgrel=1
-depends=()
+depends=('fontconfig' 'xorg-font-utils')
 pkgdesc="CollegeHumour custom punctuation"
 arch=('any')
-url="http://www.collegehumor.com/"
+url="http://www.github.com/SorenKierkegaard/$pkgname"
 license=('custom:"LICENSE"')
 makedepends=()
 optdepends=()
