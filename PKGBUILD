@@ -7,13 +7,6 @@ pkgdesc="CollegeHumour custom punctuation"
 arch=('any')
 url="http://www.github.com/SorenKierkegaard/$pkgname"
 license=('BSD')
-makedepends=()
-optdepends=()
-provides=()
-conflicts=()
-replaces=()
-backup=()
-options=()
 install=$pkgname.install
 source=(https://github.com/SorenKierkegaard/$pkgname/blob/master/$pkgname.tar.bz2)
 md5sums=('03f590999efa99ac3f9aee5a09e0d55b')
@@ -23,4 +16,3 @@ package() {
   install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
   install -Dm644 ttf-ch-punctuation.ttf "$pkgdir/usr/share/fonts/TTF/ttf-punctuation.ttf"
 }
-
