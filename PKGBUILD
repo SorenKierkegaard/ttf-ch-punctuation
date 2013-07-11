@@ -6,7 +6,7 @@ depends=('fontconfig' 'xorg-font-utils')
 pkgdesc="CollegeHumour custom punctuation"
 arch=('any')
 url="http://www.github.com/SorenKierkegaard/$pkgname"
-license=('custom:"LICENSE"')
+license=('BSD')
 makedepends=()
 optdepends=()
 provides=()
@@ -16,7 +16,7 @@ backup=()
 options=()
 install=$pkgname.install
 source=(https://github.com/SorenKierkegaard/$pkgname/blob/master/$pkgname.tar.bz2)
-md5sums=('013832b07c046f43abf362ba3a93141f')
+md5sums=('03f590999efa99ac3f9aee5a09e0d55b')
 
 package() {
   cd $srcdir
